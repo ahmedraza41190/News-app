@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 65px;
+  background-color: #5F4B8BFF;
+  color: white;
+}
+
+.footer > div > a {
+  color: var(--theme-color);
+  color: #ffee58;
+}
+
+.iconsContainer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  padding-left: 10px;
+}
+
+.iconsContainer > li > a {
+  padding-right: 10px;
+  font-size: 30px;
+  color: #867b97;
+  cursor: pointer;
+}
+
+.BsFacebook:hover {
+  color: rgb(30, 161, 242);
+}
+
+.BsGithub:hover {
+  color: #171515;
+}
+
+.BsLinkedin:hover {
+  color: #0e76a8;
+}
+
+.BsInstagram:hover {
+  color: #E4405F;
+}
+
+.BsYoutube:hover {
+  color: #ff0000;
+}
+
+.HiOutlineMail:hover {
+  color: rgb(30, 161, 242);
+}
